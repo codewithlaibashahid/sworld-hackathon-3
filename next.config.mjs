@@ -10,5 +10,9 @@ const nextConfig = {
         ignoreBuildErrors: true
     }
 };
-
+module.exports = {
+  experimental: {
+    runtime: 'nodejs',  // Force using Node.js instead of Edge
+  },
+};
 export default nextConfig;
