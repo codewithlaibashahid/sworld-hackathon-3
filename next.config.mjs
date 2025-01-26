@@ -12,7 +12,7 @@ const nextConfig = {
 };
 module.exports = {
   experimental: {
-    runtime: 'nodejs',  // Force using Node.js instead of Edge
+     "type": "module"
   },
 };
 export default nextConfig;
