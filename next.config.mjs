@@ -10,9 +10,5 @@ const nextConfig = {
         ignoreBuildErrors: true
     }
 };
-module.exports = {
-  experimental: {
-     "type": "module",
-  },
-};
+
 export default nextConfig;
