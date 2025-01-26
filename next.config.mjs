@@ -12,7 +12,7 @@ const nextConfig = {
 };
 module.exports = {
   experimental: {
-     "type": "module"
+     "type": "module",
   },
 };
 export default nextConfig;
