@@ -1,6 +1,7 @@
 {
   "name": "my-ecom",
   "version": "0.1.0",
+  "type":"module",
   "private": true,
   "scripts": {
     "check-env": "echo NEXT_PUBLIC_SANITY_DATASET=$NEXT_PUBLIC_SANITY_DATASET",
