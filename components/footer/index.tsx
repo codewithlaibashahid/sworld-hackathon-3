@@ -26,8 +26,8 @@ export default function Footer() {
       <div className="space-y-4">
         <span className="font-semibold text-xl">LOCATION</span>
         <div>
-          <p>COMPTON</p>
-          <p>CALIFORNIA</p>
+          <p>Karachi</p>
+          <p>Pakistan</p>
         </div>
         <div>
           <p>geral@sworld.com</p>
@@ -39,9 +39,9 @@ export default function Footer() {
       <div className="space-y-4">
           <span className="font-semibold text-xl">OUR SOCIAL MEDIAS</span>
           <ul className="flex items-center gap-3 text-3xl">
-            <LuFacebook />
-            <FaInstagram />
-            <MdMailOutline />
+           <Link href="https://github.com/codewithlaibashahid"><LuFacebook /></Link>
+           <Link href="https://github.com/codewithlaibashahid"><FaInstagram /></Link>
+           <Link href="https://github.com/codewithlaibashahid"><MdMailOutline /></Link>
           </ul>
         </div>
     </div>
